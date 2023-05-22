@@ -107,3 +107,24 @@ font-size: 1.4rem;
 line-height: 2rem;
 margin-bottom: 0.3rem;
 }
+
+@media only screen and (min-width: 75em){
+    .price > * {
+        padding: 4rem;
+    }
+    
+    .community { 
+        padding: 4rem;
+    
+    }
+
+    .community .subtitle {    
+        font-size: 1.8rem;
+        line-height: 2.1rem; 
+        margin-bottom: 1.1rem;
+        }
+        
+        .community p {
+        font-size: 1.6rem;  
+        }
+}
