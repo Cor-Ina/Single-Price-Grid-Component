@@ -7,26 +7,27 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --dark: hsl(0, 0%, 0%);
+    --cyan: hsl(179, 62%, 40%);
+    --ltcyan: hsl(179, 62%, 45%);
+    --yellow: hsl(71, 73%, 54%);
+    --dkyellow: hsl(71, 73%, 48%);
+    --ltgray: hsl(204, 43%, 93%);
+    --grayblue: hsl(218, 22%, 67%);
+    }
+
 body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     background-color: var(--ltgray);
-    color: var(--grayblue);
+    color: var(--dark);
     padding: 7.2rem 3.2rem 1rem 3.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-:root {
---white: hsl(0, 0%, 100%);
---cyan: hsl(179, 62%, 40%);
---ltcyan: hsl(179, 62%, 45%);
---yellow: hsl(71, 73%, 54%);
---dkyellow: hsl(71, 73%, 48%);
---ltgray: hsl(204, 43%, 93%);
---grayblue: hsl(218, 22%, 67%);
 }
 
 a {
