@@ -1,12 +1,11 @@
 .price {
     border-radius: 0.5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     max-width: 63.5rem;
-    /* margin: auto; */
-    /* margin-bottom: 1rem; */
+    margin: auto;
 }
 
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 600px){
 
     .price {    
         display: grid;    
@@ -24,91 +23,92 @@
 }
 
 .community {
+    border-radius: 0.5rem 0.5rem 0 0;
     background-color: var(--white);  
     padding: 2.8rem 2.4rem;
 
 }
 
 .community h2 {
-color: var(--cyan);
+    color: var(--cyan);
 }
 
 .community .subtitle {    
-font-size: 1.5rem;
-line-height: 2rem;
-color: var(--yellow);
-font-weight: bold;  
-margin-bottom: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--yellow);
+    font-weight: bold;  
+    margin-bottom: 1.6rem;
 }
 
 .community p {
-font-size: 1.4rem;  
-margin-bottom: 0;
+    font-size: 1.4rem;  
+    margin-bottom: 0;
 }
 
 .subscription, .why {
-color: var(--ltgray);
+    color: var(--ltgray);
 }
 
 .subscription {
-background-color: var(--cyan);  
+    background-color: var(--cyan);  
 }
 
 .subscription__price {  
-display: flex;
-align-items: center;
-font-size: 3.2rem;
-line-height: 3.7rem;
-font-weight: bold;
-margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
 }
 
 .subscription__price span {
-font-size: 1.6rem;
-margin-left: 1.1rem;
-font-weight: normal;
-opacity: 0.75;
+    font-size: 1.6rem;
+    margin-left: 1.1rem;
+    font-weight: normal;
+    opacity: 0.75;
 }
 
 .subscription p {
-font-size: 1.6rem;
-margin-bottom: 2.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 2.5rem;
 }
 
 .subscription a {
-display: block;
-background-color: var(--yellow);
-color: var(--white);
-font-size: 1.6rem;
-line-height: 1.87;
-padding: 1.4rem;
-text-align: center;
-border-radius: 0.4rem;
-box-shadow: 0 0.7rem 1.6rem rgba(0,0,0,0.15); 
-transition: background-color 200ms ease;
+    display: block;
+    background-color: var(--yellow);
+    color: var(--white);
+    font-size: 1.6rem;
+    line-height: 1.87;
+    padding: 1.4rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.7rem 1.6rem rgba(0,0,0,0.15); 
+    transition: background-color 200ms ease;
 }
 
 .subscription a:hover {
-background-color: var(--dkyellow);  
+    background-color: var(--dkyellow);  
 }
 
 .why {
-background-color: var(--ltcyan);
+    background-color: var(--ltcyan);
 }
 
 .why ul {
-margin-top: 0;
-padding: 0;
+    margin-top: 0;
+    padding: 0;
 }
 
 .why ul li {
-list-style-type: none;
-font-size: 1.4rem;
-line-height: 2rem;
-margin-bottom: 0.3rem;
+    list-style-type: none;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 0.3rem;
 }
 
-@media only screen and (min-width: 75em){
+@media only screen and (min-width: 700px){
     .price > * {
         padding: 4rem;
     }
@@ -124,7 +124,15 @@ margin-bottom: 0.3rem;
         margin-bottom: 1.1rem;
         }
         
-        .community p {
+    .community p {
         font-size: 1.6rem;  
-        }
+    }
+
+    .subscription { 
+        border-radius: 0 0 0 0.5rem;
+    }
+
+    .why {
+        border-radius: 0 0 0.5rem 0;
+    }
 }
