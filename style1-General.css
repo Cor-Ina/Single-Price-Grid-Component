@@ -12,12 +12,12 @@ body {
     font-family: 'Karla', sans-serif;
     background-color: var(--ltgray);
     color: var(--grayblue);
-    padding: 7.2rem 3.2rem 0 3.2rem;
+    padding: 7.2rem 3.2rem 0rem 3.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 :root {

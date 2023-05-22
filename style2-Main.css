@@ -1,8 +1,8 @@
 .price {
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
     /* overflow: hidden; */
     max-width: 63.5rem;
-    margin: auto;
+    /* margin: auto; */
 }
 
 @media only screen and (min-width: 600px){
