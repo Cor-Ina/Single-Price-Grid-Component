@@ -1,23 +1,23 @@
 html {
     box-sizing: border-box;
-    font-size: 100%;
+    font-size: 62.5%;
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-font-family: 'Karla', sans-serif;
-line-height: 1.3;
-background-color: var(--ltgray);
-color: var(--grayblue);
-padding: var(--paddingX);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--ltgray);
+    color: var(--grayblue);
+    padding: 7.2rem 3.2rem 6.2rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 :root {
@@ -28,29 +28,30 @@ height: 100vh;
 --dkyellow: hsl(71, 73%, 48%);
 --ltgray: hsl(204, 43%, 93%);
 --grayblue: hsl(218, 22%, 67%);
---paddingX: 1.8rem;
---paddingY: 1.5rem;
 }
 
 a {
-text-decoration: none;
+    text-decoration: none;
 }
 
-h1, h2, h3 {  
-font-weight: bold;
-margin-top: 0;
-line-height: 1.15;
+h2, h3 {  
+    font-weight: bold;
+    margin-top: 0;
 }
 
 h2 {
-font-size: 1.25rem;
-margin-bottom: 1.25rem;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+    line-height: 2.4rem;
+    letter-spacing: .25 px;
 }
 
 h3 {
-font-size: 1.1rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
 }
 
 p {
-margin-top: 0;
+    margin-top: 0;
+    line-height: 2.6rem;
 }

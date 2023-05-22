@@ -1,9 +1,9 @@
 .price {
     border-radius: 0.5rem;
     overflow: hidden;
-    max-width: 40rem;
+    max-width: 63.5rem;
     /* margin: auto; */
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 @media only screen and (min-width: 37.5em){
@@ -20,11 +20,13 @@
 }
 
 .price > * {
-padding: var(--paddingX) var(--paddingY);
+    padding: 2.4rem;
 }
 
 .community {
-background-color: var(--white);  
+    background-color: var(--white);  
+    padding: 2.8rem 2.4rem;
+
 }
 
 .community h2 {
@@ -32,15 +34,15 @@ color: var(--cyan);
 }
 
 .community .subtitle {    
-font-size: 1rem;
+font-size: 1.5rem;
+line-height: 2rem;
 color: var(--yellow);
 font-weight: bold;  
-margin-bottom: 1rem;
+margin-bottom: 1.6rem;
 }
 
 .community p {
-font-size: 0.85rem;  
-line-height: 1.75;
+font-size: 1.4rem;  
 margin-bottom: 0;
 }
 
@@ -55,31 +57,34 @@ background-color: var(--cyan);
 .subscription__price {  
 display: flex;
 align-items: center;
-font-size: 2rem;
+font-size: 3.2rem;
+line-height: 3.7rem;
 font-weight: bold;
-margin-bottom: 0.25rem;
+margin-bottom: 0.4rem;
 }
 
 .subscription__price span {
-font-size: 1rem;
-margin-left: 0.8rem;
+font-size: 1.6rem;
+margin-left: 1.1rem;
 font-weight: normal;
 opacity: 0.75;
 }
 
 .subscription p {
-font-size: 0.9rem;
-margin-bottom: 1.75rem;
+font-size: 1.6rem;
+margin-bottom: 2.5rem;
 }
 
 .subscription a {
 display: block;
 background-color: var(--yellow);
 color: var(--white);
-padding: 0.75rem;
+font-size: 1.6rem;
+line-height: 1.87;
+padding: 1.4rem;
 text-align: center;
-border-radius: 0.25rem;
-box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); 
+border-radius: 0.4rem;
+box-shadow: 0 0.7rem 1.6rem rgba(0,0,0,0.15); 
 transition: background-color 200ms ease;
 }
 
@@ -98,6 +103,7 @@ padding: 0;
 
 .why ul li {
 list-style-type: none;
-font-size: 0.85rem;
-margin-bottom: 0.2rem;
+font-size: 1.4rem;
+line-height: 2rem;
+margin-bottom: 0.3rem;
 }
