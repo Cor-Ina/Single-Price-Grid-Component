@@ -49,7 +49,7 @@
     background-color: var(--cyan);  
 }
 
-.subscription__price {  
+.subscription--price {  
     display: flex;
     align-items: center;
     font-size: 3.2rem;
@@ -58,11 +58,11 @@
     margin-bottom: 0.4rem;
 }
 
-.subscription__price span {
+.subscription--price span {
     font-size: 1.6rem;
     margin-left: 1.1rem;
     font-weight: normal;
-    /* opacity: 0.75; */
+    opacity: 0.75;
 }
 
 .subscription p {
