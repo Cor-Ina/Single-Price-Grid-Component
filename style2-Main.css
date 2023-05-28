@@ -24,8 +24,8 @@
     padding: 2.8rem 2.4rem;
 }
 
-.community h2 {
-    color: var(--cyan);
+.community h1 {
+    color: var(--ltcyan);
 }
 
 .community .subtitle {    
