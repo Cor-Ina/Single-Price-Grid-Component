@@ -10,12 +10,13 @@ html {
 :root {
     --white: hsl(0, 0%, 100%);
     --dark: hsl(0, 0%, 0%);
-    --cyan: hsl(179, 62%, 20%);
-    --ltcyan: hsl(179, 62%, 25%);
-    --yellow: hsl(71, 73%, 60%);
+    --cyan: hsl(179, 62%, 25%);
+    --ltcyan: hsl(179, 62%, 30%);
+    --yellow: hsl(71, 73%, 58%);
     --dkyellow: hsl(71, 73%, 48%);
     --ltgray: hsl(204, 43%, 93%);
     --grayblue: hsl(218, 22%, 67%);
+    --subtitle: hsl(0, 0%, 45%);
     }
 
 body {
