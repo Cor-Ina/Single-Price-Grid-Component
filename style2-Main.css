@@ -1,5 +1,6 @@
 .price {
     max-width: 63.5rem;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
 }
 
 @media only screen and (min-width: 600px){
